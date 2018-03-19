@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+html, body{
+    color: rgb(233, 233, 233);
+    overflow:hidden;
+    margin: 0;
+}
+section{
+    
+    background-image: url(back.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    
+}
+.inner{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 0;
+    left: 0;
+    text-align: center;
+    padding-top: 10%;
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
